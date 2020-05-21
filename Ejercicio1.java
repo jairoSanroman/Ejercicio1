@@ -18,7 +18,7 @@ public class Ejercicio1 extends JFrame {
 
         @Override
         public void mouseMoved(MouseEvent e) {
-            setTitle(String.format("Control de Ratón - (X: %d, Y: %d)", e.getXOnScreen(), e.getYOnScreen()));
+            setTitle(String.format("Control de Ratón - (X: %d, Y: %d)", e.getX(), e.getY()));
         }
 
         @Override
